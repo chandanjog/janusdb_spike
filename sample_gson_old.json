@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "label": "user",
+  "outE": {
+    "installed": [
+      {
+        "inV": "com.google.android.play.games"
+      }
+    ]
+  },
+  "inE": {
+    "installed_by": [
+      {
+        "outV": 1
+      }
+    ]
+  },
+  "properties": {
+    "age": 40,
+    "gender": "F"
+  }
+}
