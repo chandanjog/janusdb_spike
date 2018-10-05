@@ -12,14 +12,6 @@
 
 import org.apache.tinkerpop.gremlin.process.traversal.*
 
-//https://github.com/tinkerpop/gremlin/wiki/Using-Gremlin-through-Groovy
-
-//@Grapes(
-//    @Grab(group='org.apache.tinkerpop', module='gremlin-groovy', version='3.3.1')
-//)
-
-import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource
-import org.apache.tinkerpop.gremlin.structure.T
 import org.apache.tinkerpop.gremlin.tinkergraph.structure.*
 
 // Create a new (empty) TinkerGrap
