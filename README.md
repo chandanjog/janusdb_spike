@@ -17,6 +17,7 @@ Java 8
 Groovy
 Python
 Download version janusgraph-0.3.0-hadoop2 from https://github.com/JanusGraph/janusgraph/releases
+DBeaver GUI client to visualise underlying cassandra tables, cqlsh client version was having issues with cassandra protocol version. 
 ```
 
 ### Start the server
@@ -39,3 +40,10 @@ Download version janusgraph-0.3.0-hadoop2 from https://github.com/JanusGraph/jan
 ```
 ```
 
+### Blockers
+
+```
+- Custom vertex ids not supported: 
+  https://github.com/JanusGraph/janusgraph/issues/45
+  https://github.com/JanusGraph/janusgraph/issues/1221
+``` 
